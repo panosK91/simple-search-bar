@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Article Search</title>
+</head>
+<body>
+    <header>
+        <h1>Article Search Application</h1>
+    </header>
+    <main>
+        <form>
+            <section aria-label="Search Articles">
+                <input type="search" id="searchBox" aria-label="Search for articles" placeholder="Type to search...">
+            </section>
+            <section aria-label="Search Results">
+                <ul id="articleList" aria-live="polite"></ul>
+            </section>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Article Search Application. All rights reserved.</p>
+    </footer>
+</body>
+</html>

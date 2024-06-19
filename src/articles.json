@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "type": "articles",
+            "id": "1",
+            "attributes": {
+                "title": "JSON:API paints my bikeshed!",
+                "body": "Although such training datasets are easily available on the internet, the required computational power is extremely high. Therefore, we will work with a video dataset of moving objects generated from Python code.We will use the GAN (Generative Adversarial Networks) architecture to create our model instead of the diffusion model that OpenAI Sora uses. I attempted to use the diffusion model, but it crashed due to memory requirements, which is beyond my capacity. GANs, on the other hand, are easier and quicker to train and test.",
+                "created": "2015-05-22T14:56:29.000Z",
+                "updated": "2015-05-22T14:56:28.000Z",
+                "tags": ["JSON", "API", "development"]
+            },
+            "relationships": {
+                "author": {
+                    "data": { "id": "42", "type": "people" }
+                }
+            }
+        },
+        {
+            "type": "articles",
+            "id": "2",
+            "attributes": {
+                "title": "Rails is Omakase",
+                "body": "Through this adversarial process, both networks continuously improve. The generator gets better at creating realistic images, and the discriminator gets better at identifying fakes until equilibrium is reached, where the discriminator can no longer tell the difference between real and generated images. At this point, the GAN has successfully learned to produce realistic modifications.",
+                "created": "2016-07-11T10:00:00.000Z",
+                "updated": "2016-07-12T05:22:33.000Z",
+                "tags": ["Rails", "conventions", "Ruby"]
+            },
+            "relationships": {
+                "author": {
+                    "data": { "id": "43", "type": "people" }
+                }
+            }
+        },
+        {
+            "type": "articles",
+            "id": "3",
+            "attributes": {
+                "title": "The Parley Letter",
+                "body": "Sora from OpenAI, Stable Video Diffusion from Stability AI, and many other text-to-video models that have come out or will appear in the future are among the most popular AI trends in 2024, following large language models (LLMs). In this blog, we will build a small scale text-to-video model from scratch. We will input a text prompt, and our trained model will generate a video based on that prompt. This blog will cover everything from understanding the theoretical concepts to coding the entire architecture and generating the final result.",
+                "created": "2017-01-05T09:34:07.000Z",
+                "updated": "2017-01-05T12:45:56.000Z",
+                "tags": ["messaging", "communication", "threads"]
+            },
+            "relationships": {
+                "author": {
+                    "data": { "id": "44", "type": "people" }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "people",
+            "id": "42",
+            "attributes": {
+                "name": "John",
+                "age": 80,
+                "gender": "male"
+            }
+        },
+        {
+            "type": "people",
+            "id": "43",
+            "attributes": {
+                "name": "Jane",
+                "age": 34,
+                "gender": "female"
+            }
+        },
+        {
+            "type": "people",
+            "id": "44",
+            "attributes": {
+                "name": "Dave",
+                "age": 47,
+                "gender": "male"
+            }
+        }
+    ]
+}

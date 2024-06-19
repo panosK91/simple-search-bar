@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Dark color for high contrast text */
+    background: #f4f4f4; /* Soft light gray background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ffffff; /* Solid white for maximum contrast */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    width: 80%; /* Adjust width to center content */
+    margin: 20px auto; /* Centering main in the middle of the page */
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #007BFF; /* Bright blue border for focus */
+    border-radius: 20px; /* Pill-shaped border for modern aesthetics */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inset shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for interactions */
+    outline: none; /* Remove default focus outline */
+}
+
+input[type="search"]:focus {
+    border-color: #0056b3; /* Darker blue for prominent focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glowing effect on focus */
+}
+
+article {
+    background-color: #ffffff; /* Solid white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 0.85rem;
+    color: #666666;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9e9e9;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        width: 95%;
+        padding: 10px;
+    }
+}
